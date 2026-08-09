@@ -1,0 +1,136 @@
+{
+  "files": {
+    "accounts.json": {
+      "operational": true,
+      "records": 180,
+      "sha256": "53729bb08121b7db8d47bee3b30b0c6098c533ce8544ae459f5986c53b410434"
+    },
+    "alerts.json": {
+      "operational": true,
+      "records": 180,
+      "sha256": "f07ef90be5ee936a0db65f3a275f3c4c360278667eb51d3293ffa99bb6ff381d"
+    },
+    "attacks.json": {
+      "operational": true,
+      "records": 320,
+      "sha256": "80effc15ed6c1444fc0fd00370164bec8fc9dcc70bc0a952b8769a40a755f07c"
+    },
+    "audit_logs.json": {
+      "operational": true,
+      "records": 220,
+      "sha256": "dd05cfd71eee40ba87fd2b5df31b56cb8c5dc870d571bd75c4505dafae42ccfa"
+    },
+    "auth_logs.json": {
+      "operational": true,
+      "records": 250,
+      "sha256": "f19802ee14c86a38ce34840b401c6fa4d5da06951d1e419f144bc9b7d02866a0"
+    },
+    "beneficiaries.json": {
+      "operational": true,
+      "records": 130,
+      "sha256": "f2dadefaff5f19acb2dc856eae67c769f1a6a91f6be2d1e9d464ba651c21d31f"
+    },
+    "canary_activity.json": {
+      "operational": true,
+      "records": 180,
+      "sha256": "f06fd89d26dbd08d6c5e87810e78a5ecf43906e1efc8a26a02e8bdd727d82422"
+    },
+    "cards.json": {
+      "operational": true,
+      "records": 150,
+      "sha256": "0753440422a2227ff3e6b435a71e52f119c0d46b74f4ef1beea1585cc4e6af26"
+    },
+    "commands.json": {
+      "operational": true,
+      "records": 300,
+      "sha256": "0a23938c852361dee66c5e874d4b0fa7e686063ab4482652dbdfc4e3202929f9"
+    },
+    "customers.json": {
+      "operational": true,
+      "records": 120,
+      "sha256": "1d0aff0adc39f71bed833ae2b7a12e9b608ccf48fa6d64de090f5f93dcc85035"
+    },
+    "demo_credentials.json": {
+      "classification": "fictional-local-test-credentials",
+      "operational": false,
+      "records": 4,
+      "sha256": "d4a9d65d9c5e7254d9cf96161aea94f8a35cf057be3a9bca7b0888f5ed7863b5"
+    },
+    "events.json": {
+      "operational": true,
+      "records": 420,
+      "sha256": "46ede2d543706a91aa36c36798fd97ccee02932ccaf39c14f8fcd9686c505183"
+    },
+    "invoices.json": {
+      "operational": true,
+      "records": 130,
+      "sha256": "b0e9019fdf817859c93aeb9aa1fdc87f201800a857cd60d0d5569a5c11f664e3"
+    },
+    "iocs.json": {
+      "operational": true,
+      "records": 200,
+      "sha256": "17d774cd20a66c2b04359e85c6e29671652b9a2fde247e16a2a53d93e2d2ef61"
+    },
+    "locations.json": {
+      "operational": true,
+      "records": 120,
+      "sha256": "371855a7ffbc7b480a3950d8f47c0e8a24c406cdf8382d00e37146025f30f58b"
+    },
+    "merchants.json": {
+      "operational": true,
+      "records": 140,
+      "sha256": "b87ad54f0729dd80a358659133bb96788a1053b4762c71c2381fa660e4170603"
+    },
+    "mitre_mappings.json": {
+      "operational": true,
+      "records": 120,
+      "sha256": "f73414089ce9049eb52b00d16a060a34da44cfa990be13b69b895f4ed4a4e0fa"
+    },
+    "payments.json": {
+      "operational": true,
+      "records": 300,
+      "sha256": "38ad1884c8fdf86aec3ec17ca8f6ca8da2532fa6b3cbb43da8b17e951e5d7ff4"
+    },
+    "playbook_runs.json": {
+      "operational": true,
+      "records": 140,
+      "sha256": "7a350f542d216391047e09c94ff9d6ed786ea898bada74938144ae23f187c04c"
+    },
+    "sandbox_reports.json": {
+      "operational": true,
+      "records": 120,
+      "sha256": "e4334e0171c084aeee0666074366c1926f127faac7e2407c5d641a9aea6e1257"
+    },
+    "sessions.json": {
+      "operational": true,
+      "records": 180,
+      "sha256": "3881706766e87e435998b408adde2d415fa40084118df3c596d3d9ea91a810f6"
+    },
+    "transactions.json": {
+      "operational": true,
+      "records": 600,
+      "sha256": "31cffc4b906cb08187080011b9a1751ca0b2288aecbfd02fb514f888f3845dca"
+    },
+    "transfers.json": {
+      "operational": true,
+      "records": 300,
+      "sha256": "6c128feb20958d0d2ab803a874067731879e485c531410e561225510da53f811"
+    }
+  },
+  "generated_at": "2026-07-31T12:00:00Z",
+  "minimum_operational_records": 100,
+  "reconciliation": {
+    "accounts_checked": 180,
+    "incoming_count": 150,
+    "operational_dataset_count": 22,
+    "outgoing_count": 450,
+    "reconciled": true,
+    "total_credits": 353911.0,
+    "total_debits": 553911.49,
+    "transactions_checked": 600
+  },
+  "runtime_network_required": false,
+  "schema_version": "1.0.0",
+  "seed": 20260731,
+  "synthetic": true
+}

@@ -1,0 +1,1682 @@
+[
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 3,
+    "last_seen": "2026-07-01T00:00:00Z",
+    "mapping_id": "mitre_0001",
+    "synthetic": true,
+    "tactic": "Credential Access",
+    "technique_id": "T1110",
+    "technique_name": "Brute Force"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 10,
+    "last_seen": "2026-07-01T01:23:00Z",
+    "mapping_id": "mitre_0002",
+    "synthetic": true,
+    "tactic": "Execution",
+    "technique_id": "T1059",
+    "technique_name": "Command and Scripting Interpreter"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 17,
+    "last_seen": "2026-07-01T02:46:00Z",
+    "mapping_id": "mitre_0003",
+    "synthetic": true,
+    "tactic": "Initial Access",
+    "technique_id": "T1190",
+    "technique_name": "Exploit Public-Facing Application"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 24,
+    "last_seen": "2026-07-01T04:09:00Z",
+    "mapping_id": "mitre_0004",
+    "synthetic": true,
+    "tactic": "Discovery",
+    "technique_id": "T1087",
+    "technique_name": "Account Discovery"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 31,
+    "last_seen": "2026-07-01T05:32:00Z",
+    "mapping_id": "mitre_0005",
+    "synthetic": true,
+    "tactic": "Discovery",
+    "technique_id": "T1046",
+    "technique_name": "Network Service Discovery"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 38,
+    "last_seen": "2026-07-01T06:55:00Z",
+    "mapping_id": "mitre_0006",
+    "synthetic": true,
+    "tactic": "Command and Control",
+    "technique_id": "T1105",
+    "technique_name": "Ingress Tool Transfer"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 45,
+    "last_seen": "2026-07-01T08:18:00Z",
+    "mapping_id": "mitre_0007",
+    "synthetic": true,
+    "tactic": "Command and Control",
+    "technique_id": "T1071",
+    "technique_name": "Application Layer Protocol"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 52,
+    "last_seen": "2026-07-01T09:41:00Z",
+    "mapping_id": "mitre_0008",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1562",
+    "technique_name": "Impair Defenses"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 59,
+    "last_seen": "2026-07-01T11:04:00Z",
+    "mapping_id": "mitre_0009",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1027",
+    "technique_name": "Obfuscated Files or Information"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 66,
+    "last_seen": "2026-07-01T12:27:00Z",
+    "mapping_id": "mitre_0010",
+    "synthetic": true,
+    "tactic": "Collection",
+    "technique_id": "T1005",
+    "technique_name": "Data from Local System"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 73,
+    "last_seen": "2026-07-01T13:50:00Z",
+    "mapping_id": "mitre_0011",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1218",
+    "technique_name": "System Binary Proxy Execution"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 80,
+    "last_seen": "2026-07-01T15:13:00Z",
+    "mapping_id": "mitre_0012",
+    "synthetic": true,
+    "tactic": "Persistence",
+    "technique_id": "T1547",
+    "technique_name": "Boot or Logon Autostart Execution"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 87,
+    "last_seen": "2026-07-01T16:36:00Z",
+    "mapping_id": "mitre_0013",
+    "synthetic": true,
+    "tactic": "Credential Access",
+    "technique_id": "T1110",
+    "technique_name": "Brute Force"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 94,
+    "last_seen": "2026-07-01T17:59:00Z",
+    "mapping_id": "mitre_0014",
+    "synthetic": true,
+    "tactic": "Execution",
+    "technique_id": "T1059",
+    "technique_name": "Command and Scripting Interpreter"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 4,
+    "last_seen": "2026-07-01T19:22:00Z",
+    "mapping_id": "mitre_0015",
+    "synthetic": true,
+    "tactic": "Initial Access",
+    "technique_id": "T1190",
+    "technique_name": "Exploit Public-Facing Application"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 11,
+    "last_seen": "2026-07-01T20:45:00Z",
+    "mapping_id": "mitre_0016",
+    "synthetic": true,
+    "tactic": "Discovery",
+    "technique_id": "T1087",
+    "technique_name": "Account Discovery"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 18,
+    "last_seen": "2026-07-01T22:08:00Z",
+    "mapping_id": "mitre_0017",
+    "synthetic": true,
+    "tactic": "Discovery",
+    "technique_id": "T1046",
+    "technique_name": "Network Service Discovery"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 25,
+    "last_seen": "2026-07-01T23:31:00Z",
+    "mapping_id": "mitre_0018",
+    "synthetic": true,
+    "tactic": "Command and Control",
+    "technique_id": "T1105",
+    "technique_name": "Ingress Tool Transfer"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 32,
+    "last_seen": "2026-07-02T00:54:00Z",
+    "mapping_id": "mitre_0019",
+    "synthetic": true,
+    "tactic": "Command and Control",
+    "technique_id": "T1071",
+    "technique_name": "Application Layer Protocol"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 39,
+    "last_seen": "2026-07-02T02:17:00Z",
+    "mapping_id": "mitre_0020",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1562",
+    "technique_name": "Impair Defenses"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 46,
+    "last_seen": "2026-07-02T03:40:00Z",
+    "mapping_id": "mitre_0021",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1027",
+    "technique_name": "Obfuscated Files or Information"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 53,
+    "last_seen": "2026-07-02T05:03:00Z",
+    "mapping_id": "mitre_0022",
+    "synthetic": true,
+    "tactic": "Collection",
+    "technique_id": "T1005",
+    "technique_name": "Data from Local System"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 60,
+    "last_seen": "2026-07-02T06:26:00Z",
+    "mapping_id": "mitre_0023",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1218",
+    "technique_name": "System Binary Proxy Execution"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 67,
+    "last_seen": "2026-07-02T07:49:00Z",
+    "mapping_id": "mitre_0024",
+    "synthetic": true,
+    "tactic": "Persistence",
+    "technique_id": "T1547",
+    "technique_name": "Boot or Logon Autostart Execution"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 74,
+    "last_seen": "2026-07-02T09:12:00Z",
+    "mapping_id": "mitre_0025",
+    "synthetic": true,
+    "tactic": "Credential Access",
+    "technique_id": "T1110",
+    "technique_name": "Brute Force"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 81,
+    "last_seen": "2026-07-02T10:35:00Z",
+    "mapping_id": "mitre_0026",
+    "synthetic": true,
+    "tactic": "Execution",
+    "technique_id": "T1059",
+    "technique_name": "Command and Scripting Interpreter"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 88,
+    "last_seen": "2026-07-02T11:58:00Z",
+    "mapping_id": "mitre_0027",
+    "synthetic": true,
+    "tactic": "Initial Access",
+    "technique_id": "T1190",
+    "technique_name": "Exploit Public-Facing Application"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 95,
+    "last_seen": "2026-07-02T13:21:00Z",
+    "mapping_id": "mitre_0028",
+    "synthetic": true,
+    "tactic": "Discovery",
+    "technique_id": "T1087",
+    "technique_name": "Account Discovery"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 5,
+    "last_seen": "2026-07-02T14:44:00Z",
+    "mapping_id": "mitre_0029",
+    "synthetic": true,
+    "tactic": "Discovery",
+    "technique_id": "T1046",
+    "technique_name": "Network Service Discovery"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 12,
+    "last_seen": "2026-07-02T16:07:00Z",
+    "mapping_id": "mitre_0030",
+    "synthetic": true,
+    "tactic": "Command and Control",
+    "technique_id": "T1105",
+    "technique_name": "Ingress Tool Transfer"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 19,
+    "last_seen": "2026-07-02T17:30:00Z",
+    "mapping_id": "mitre_0031",
+    "synthetic": true,
+    "tactic": "Command and Control",
+    "technique_id": "T1071",
+    "technique_name": "Application Layer Protocol"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 26,
+    "last_seen": "2026-07-02T18:53:00Z",
+    "mapping_id": "mitre_0032",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1562",
+    "technique_name": "Impair Defenses"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 33,
+    "last_seen": "2026-07-02T20:16:00Z",
+    "mapping_id": "mitre_0033",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1027",
+    "technique_name": "Obfuscated Files or Information"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 40,
+    "last_seen": "2026-07-02T21:39:00Z",
+    "mapping_id": "mitre_0034",
+    "synthetic": true,
+    "tactic": "Collection",
+    "technique_id": "T1005",
+    "technique_name": "Data from Local System"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 47,
+    "last_seen": "2026-07-02T23:02:00Z",
+    "mapping_id": "mitre_0035",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1218",
+    "technique_name": "System Binary Proxy Execution"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 54,
+    "last_seen": "2026-07-03T00:25:00Z",
+    "mapping_id": "mitre_0036",
+    "synthetic": true,
+    "tactic": "Persistence",
+    "technique_id": "T1547",
+    "technique_name": "Boot or Logon Autostart Execution"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 61,
+    "last_seen": "2026-07-03T01:48:00Z",
+    "mapping_id": "mitre_0037",
+    "synthetic": true,
+    "tactic": "Credential Access",
+    "technique_id": "T1110",
+    "technique_name": "Brute Force"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 68,
+    "last_seen": "2026-07-03T03:11:00Z",
+    "mapping_id": "mitre_0038",
+    "synthetic": true,
+    "tactic": "Execution",
+    "technique_id": "T1059",
+    "technique_name": "Command and Scripting Interpreter"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 75,
+    "last_seen": "2026-07-03T04:34:00Z",
+    "mapping_id": "mitre_0039",
+    "synthetic": true,
+    "tactic": "Initial Access",
+    "technique_id": "T1190",
+    "technique_name": "Exploit Public-Facing Application"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 82,
+    "last_seen": "2026-07-03T05:57:00Z",
+    "mapping_id": "mitre_0040",
+    "synthetic": true,
+    "tactic": "Discovery",
+    "technique_id": "T1087",
+    "technique_name": "Account Discovery"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 89,
+    "last_seen": "2026-07-03T07:20:00Z",
+    "mapping_id": "mitre_0041",
+    "synthetic": true,
+    "tactic": "Discovery",
+    "technique_id": "T1046",
+    "technique_name": "Network Service Discovery"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 96,
+    "last_seen": "2026-07-03T08:43:00Z",
+    "mapping_id": "mitre_0042",
+    "synthetic": true,
+    "tactic": "Command and Control",
+    "technique_id": "T1105",
+    "technique_name": "Ingress Tool Transfer"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 6,
+    "last_seen": "2026-07-03T10:06:00Z",
+    "mapping_id": "mitre_0043",
+    "synthetic": true,
+    "tactic": "Command and Control",
+    "technique_id": "T1071",
+    "technique_name": "Application Layer Protocol"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 13,
+    "last_seen": "2026-07-03T11:29:00Z",
+    "mapping_id": "mitre_0044",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1562",
+    "technique_name": "Impair Defenses"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 20,
+    "last_seen": "2026-07-03T12:52:00Z",
+    "mapping_id": "mitre_0045",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1027",
+    "technique_name": "Obfuscated Files or Information"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 27,
+    "last_seen": "2026-07-03T14:15:00Z",
+    "mapping_id": "mitre_0046",
+    "synthetic": true,
+    "tactic": "Collection",
+    "technique_id": "T1005",
+    "technique_name": "Data from Local System"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 34,
+    "last_seen": "2026-07-03T15:38:00Z",
+    "mapping_id": "mitre_0047",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1218",
+    "technique_name": "System Binary Proxy Execution"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 41,
+    "last_seen": "2026-07-03T17:01:00Z",
+    "mapping_id": "mitre_0048",
+    "synthetic": true,
+    "tactic": "Persistence",
+    "technique_id": "T1547",
+    "technique_name": "Boot or Logon Autostart Execution"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 48,
+    "last_seen": "2026-07-03T18:24:00Z",
+    "mapping_id": "mitre_0049",
+    "synthetic": true,
+    "tactic": "Credential Access",
+    "technique_id": "T1110",
+    "technique_name": "Brute Force"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 55,
+    "last_seen": "2026-07-03T19:47:00Z",
+    "mapping_id": "mitre_0050",
+    "synthetic": true,
+    "tactic": "Execution",
+    "technique_id": "T1059",
+    "technique_name": "Command and Scripting Interpreter"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 62,
+    "last_seen": "2026-07-03T21:10:00Z",
+    "mapping_id": "mitre_0051",
+    "synthetic": true,
+    "tactic": "Initial Access",
+    "technique_id": "T1190",
+    "technique_name": "Exploit Public-Facing Application"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 69,
+    "last_seen": "2026-07-03T22:33:00Z",
+    "mapping_id": "mitre_0052",
+    "synthetic": true,
+    "tactic": "Discovery",
+    "technique_id": "T1087",
+    "technique_name": "Account Discovery"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 76,
+    "last_seen": "2026-07-03T23:56:00Z",
+    "mapping_id": "mitre_0053",
+    "synthetic": true,
+    "tactic": "Discovery",
+    "technique_id": "T1046",
+    "technique_name": "Network Service Discovery"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 83,
+    "last_seen": "2026-07-04T01:19:00Z",
+    "mapping_id": "mitre_0054",
+    "synthetic": true,
+    "tactic": "Command and Control",
+    "technique_id": "T1105",
+    "technique_name": "Ingress Tool Transfer"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 90,
+    "last_seen": "2026-07-04T02:42:00Z",
+    "mapping_id": "mitre_0055",
+    "synthetic": true,
+    "tactic": "Command and Control",
+    "technique_id": "T1071",
+    "technique_name": "Application Layer Protocol"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 97,
+    "last_seen": "2026-07-04T04:05:00Z",
+    "mapping_id": "mitre_0056",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1562",
+    "technique_name": "Impair Defenses"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 7,
+    "last_seen": "2026-07-04T05:28:00Z",
+    "mapping_id": "mitre_0057",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1027",
+    "technique_name": "Obfuscated Files or Information"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 14,
+    "last_seen": "2026-07-04T06:51:00Z",
+    "mapping_id": "mitre_0058",
+    "synthetic": true,
+    "tactic": "Collection",
+    "technique_id": "T1005",
+    "technique_name": "Data from Local System"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 21,
+    "last_seen": "2026-07-04T08:14:00Z",
+    "mapping_id": "mitre_0059",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1218",
+    "technique_name": "System Binary Proxy Execution"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 28,
+    "last_seen": "2026-07-04T09:37:00Z",
+    "mapping_id": "mitre_0060",
+    "synthetic": true,
+    "tactic": "Persistence",
+    "technique_id": "T1547",
+    "technique_name": "Boot or Logon Autostart Execution"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 35,
+    "last_seen": "2026-07-04T11:00:00Z",
+    "mapping_id": "mitre_0061",
+    "synthetic": true,
+    "tactic": "Credential Access",
+    "technique_id": "T1110",
+    "technique_name": "Brute Force"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 42,
+    "last_seen": "2026-07-04T12:23:00Z",
+    "mapping_id": "mitre_0062",
+    "synthetic": true,
+    "tactic": "Execution",
+    "technique_id": "T1059",
+    "technique_name": "Command and Scripting Interpreter"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 49,
+    "last_seen": "2026-07-04T13:46:00Z",
+    "mapping_id": "mitre_0063",
+    "synthetic": true,
+    "tactic": "Initial Access",
+    "technique_id": "T1190",
+    "technique_name": "Exploit Public-Facing Application"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 56,
+    "last_seen": "2026-07-04T15:09:00Z",
+    "mapping_id": "mitre_0064",
+    "synthetic": true,
+    "tactic": "Discovery",
+    "technique_id": "T1087",
+    "technique_name": "Account Discovery"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 63,
+    "last_seen": "2026-07-04T16:32:00Z",
+    "mapping_id": "mitre_0065",
+    "synthetic": true,
+    "tactic": "Discovery",
+    "technique_id": "T1046",
+    "technique_name": "Network Service Discovery"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 70,
+    "last_seen": "2026-07-04T17:55:00Z",
+    "mapping_id": "mitre_0066",
+    "synthetic": true,
+    "tactic": "Command and Control",
+    "technique_id": "T1105",
+    "technique_name": "Ingress Tool Transfer"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 77,
+    "last_seen": "2026-07-04T19:18:00Z",
+    "mapping_id": "mitre_0067",
+    "synthetic": true,
+    "tactic": "Command and Control",
+    "technique_id": "T1071",
+    "technique_name": "Application Layer Protocol"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 84,
+    "last_seen": "2026-07-04T20:41:00Z",
+    "mapping_id": "mitre_0068",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1562",
+    "technique_name": "Impair Defenses"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 91,
+    "last_seen": "2026-07-04T22:04:00Z",
+    "mapping_id": "mitre_0069",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1027",
+    "technique_name": "Obfuscated Files or Information"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 98,
+    "last_seen": "2026-07-04T23:27:00Z",
+    "mapping_id": "mitre_0070",
+    "synthetic": true,
+    "tactic": "Collection",
+    "technique_id": "T1005",
+    "technique_name": "Data from Local System"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 8,
+    "last_seen": "2026-07-05T00:50:00Z",
+    "mapping_id": "mitre_0071",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1218",
+    "technique_name": "System Binary Proxy Execution"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 15,
+    "last_seen": "2026-07-05T02:13:00Z",
+    "mapping_id": "mitre_0072",
+    "synthetic": true,
+    "tactic": "Persistence",
+    "technique_id": "T1547",
+    "technique_name": "Boot or Logon Autostart Execution"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 22,
+    "last_seen": "2026-07-05T03:36:00Z",
+    "mapping_id": "mitre_0073",
+    "synthetic": true,
+    "tactic": "Credential Access",
+    "technique_id": "T1110",
+    "technique_name": "Brute Force"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 29,
+    "last_seen": "2026-07-05T04:59:00Z",
+    "mapping_id": "mitre_0074",
+    "synthetic": true,
+    "tactic": "Execution",
+    "technique_id": "T1059",
+    "technique_name": "Command and Scripting Interpreter"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 36,
+    "last_seen": "2026-07-05T06:22:00Z",
+    "mapping_id": "mitre_0075",
+    "synthetic": true,
+    "tactic": "Initial Access",
+    "technique_id": "T1190",
+    "technique_name": "Exploit Public-Facing Application"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 43,
+    "last_seen": "2026-07-05T07:45:00Z",
+    "mapping_id": "mitre_0076",
+    "synthetic": true,
+    "tactic": "Discovery",
+    "technique_id": "T1087",
+    "technique_name": "Account Discovery"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 50,
+    "last_seen": "2026-07-05T09:08:00Z",
+    "mapping_id": "mitre_0077",
+    "synthetic": true,
+    "tactic": "Discovery",
+    "technique_id": "T1046",
+    "technique_name": "Network Service Discovery"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 57,
+    "last_seen": "2026-07-05T10:31:00Z",
+    "mapping_id": "mitre_0078",
+    "synthetic": true,
+    "tactic": "Command and Control",
+    "technique_id": "T1105",
+    "technique_name": "Ingress Tool Transfer"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 64,
+    "last_seen": "2026-07-05T11:54:00Z",
+    "mapping_id": "mitre_0079",
+    "synthetic": true,
+    "tactic": "Command and Control",
+    "technique_id": "T1071",
+    "technique_name": "Application Layer Protocol"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 71,
+    "last_seen": "2026-07-05T13:17:00Z",
+    "mapping_id": "mitre_0080",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1562",
+    "technique_name": "Impair Defenses"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 78,
+    "last_seen": "2026-07-05T14:40:00Z",
+    "mapping_id": "mitre_0081",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1027",
+    "technique_name": "Obfuscated Files or Information"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 85,
+    "last_seen": "2026-07-05T16:03:00Z",
+    "mapping_id": "mitre_0082",
+    "synthetic": true,
+    "tactic": "Collection",
+    "technique_id": "T1005",
+    "technique_name": "Data from Local System"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 92,
+    "last_seen": "2026-07-05T17:26:00Z",
+    "mapping_id": "mitre_0083",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1218",
+    "technique_name": "System Binary Proxy Execution"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 99,
+    "last_seen": "2026-07-05T18:49:00Z",
+    "mapping_id": "mitre_0084",
+    "synthetic": true,
+    "tactic": "Persistence",
+    "technique_id": "T1547",
+    "technique_name": "Boot or Logon Autostart Execution"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 9,
+    "last_seen": "2026-07-05T20:12:00Z",
+    "mapping_id": "mitre_0085",
+    "synthetic": true,
+    "tactic": "Credential Access",
+    "technique_id": "T1110",
+    "technique_name": "Brute Force"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 16,
+    "last_seen": "2026-07-05T21:35:00Z",
+    "mapping_id": "mitre_0086",
+    "synthetic": true,
+    "tactic": "Execution",
+    "technique_id": "T1059",
+    "technique_name": "Command and Scripting Interpreter"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 23,
+    "last_seen": "2026-07-05T22:58:00Z",
+    "mapping_id": "mitre_0087",
+    "synthetic": true,
+    "tactic": "Initial Access",
+    "technique_id": "T1190",
+    "technique_name": "Exploit Public-Facing Application"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 30,
+    "last_seen": "2026-07-06T00:21:00Z",
+    "mapping_id": "mitre_0088",
+    "synthetic": true,
+    "tactic": "Discovery",
+    "technique_id": "T1087",
+    "technique_name": "Account Discovery"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 37,
+    "last_seen": "2026-07-06T01:44:00Z",
+    "mapping_id": "mitre_0089",
+    "synthetic": true,
+    "tactic": "Discovery",
+    "technique_id": "T1046",
+    "technique_name": "Network Service Discovery"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 44,
+    "last_seen": "2026-07-06T03:07:00Z",
+    "mapping_id": "mitre_0090",
+    "synthetic": true,
+    "tactic": "Command and Control",
+    "technique_id": "T1105",
+    "technique_name": "Ingress Tool Transfer"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 51,
+    "last_seen": "2026-07-06T04:30:00Z",
+    "mapping_id": "mitre_0091",
+    "synthetic": true,
+    "tactic": "Command and Control",
+    "technique_id": "T1071",
+    "technique_name": "Application Layer Protocol"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 58,
+    "last_seen": "2026-07-06T05:53:00Z",
+    "mapping_id": "mitre_0092",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1562",
+    "technique_name": "Impair Defenses"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 65,
+    "last_seen": "2026-07-06T07:16:00Z",
+    "mapping_id": "mitre_0093",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1027",
+    "technique_name": "Obfuscated Files or Information"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 72,
+    "last_seen": "2026-07-06T08:39:00Z",
+    "mapping_id": "mitre_0094",
+    "synthetic": true,
+    "tactic": "Collection",
+    "technique_id": "T1005",
+    "technique_name": "Data from Local System"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 79,
+    "last_seen": "2026-07-06T10:02:00Z",
+    "mapping_id": "mitre_0095",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1218",
+    "technique_name": "System Binary Proxy Execution"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 86,
+    "last_seen": "2026-07-06T11:25:00Z",
+    "mapping_id": "mitre_0096",
+    "synthetic": true,
+    "tactic": "Persistence",
+    "technique_id": "T1547",
+    "technique_name": "Boot or Logon Autostart Execution"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 93,
+    "last_seen": "2026-07-06T12:48:00Z",
+    "mapping_id": "mitre_0097",
+    "synthetic": true,
+    "tactic": "Credential Access",
+    "technique_id": "T1110",
+    "technique_name": "Brute Force"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 3,
+    "last_seen": "2026-07-06T14:11:00Z",
+    "mapping_id": "mitre_0098",
+    "synthetic": true,
+    "tactic": "Execution",
+    "technique_id": "T1059",
+    "technique_name": "Command and Scripting Interpreter"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 10,
+    "last_seen": "2026-07-06T15:34:00Z",
+    "mapping_id": "mitre_0099",
+    "synthetic": true,
+    "tactic": "Initial Access",
+    "technique_id": "T1190",
+    "technique_name": "Exploit Public-Facing Application"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 17,
+    "last_seen": "2026-07-06T16:57:00Z",
+    "mapping_id": "mitre_0100",
+    "synthetic": true,
+    "tactic": "Discovery",
+    "technique_id": "T1087",
+    "technique_name": "Account Discovery"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 24,
+    "last_seen": "2026-07-06T18:20:00Z",
+    "mapping_id": "mitre_0101",
+    "synthetic": true,
+    "tactic": "Discovery",
+    "technique_id": "T1046",
+    "technique_name": "Network Service Discovery"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 31,
+    "last_seen": "2026-07-06T19:43:00Z",
+    "mapping_id": "mitre_0102",
+    "synthetic": true,
+    "tactic": "Command and Control",
+    "technique_id": "T1105",
+    "technique_name": "Ingress Tool Transfer"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 38,
+    "last_seen": "2026-07-06T21:06:00Z",
+    "mapping_id": "mitre_0103",
+    "synthetic": true,
+    "tactic": "Command and Control",
+    "technique_id": "T1071",
+    "technique_name": "Application Layer Protocol"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 45,
+    "last_seen": "2026-07-06T22:29:00Z",
+    "mapping_id": "mitre_0104",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1562",
+    "technique_name": "Impair Defenses"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 52,
+    "last_seen": "2026-07-06T23:52:00Z",
+    "mapping_id": "mitre_0105",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1027",
+    "technique_name": "Obfuscated Files or Information"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 59,
+    "last_seen": "2026-07-07T01:15:00Z",
+    "mapping_id": "mitre_0106",
+    "synthetic": true,
+    "tactic": "Collection",
+    "technique_id": "T1005",
+    "technique_name": "Data from Local System"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 66,
+    "last_seen": "2026-07-07T02:38:00Z",
+    "mapping_id": "mitre_0107",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1218",
+    "technique_name": "System Binary Proxy Execution"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 73,
+    "last_seen": "2026-07-07T04:01:00Z",
+    "mapping_id": "mitre_0108",
+    "synthetic": true,
+    "tactic": "Persistence",
+    "technique_id": "T1547",
+    "technique_name": "Boot or Logon Autostart Execution"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 80,
+    "last_seen": "2026-07-07T05:24:00Z",
+    "mapping_id": "mitre_0109",
+    "synthetic": true,
+    "tactic": "Credential Access",
+    "technique_id": "T1110",
+    "technique_name": "Brute Force"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 87,
+    "last_seen": "2026-07-07T06:47:00Z",
+    "mapping_id": "mitre_0110",
+    "synthetic": true,
+    "tactic": "Execution",
+    "technique_id": "T1059",
+    "technique_name": "Command and Scripting Interpreter"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 94,
+    "last_seen": "2026-07-07T08:10:00Z",
+    "mapping_id": "mitre_0111",
+    "synthetic": true,
+    "tactic": "Initial Access",
+    "technique_id": "T1190",
+    "technique_name": "Exploit Public-Facing Application"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 4,
+    "last_seen": "2026-07-07T09:33:00Z",
+    "mapping_id": "mitre_0112",
+    "synthetic": true,
+    "tactic": "Discovery",
+    "technique_id": "T1087",
+    "technique_name": "Account Discovery"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 11,
+    "last_seen": "2026-07-07T10:56:00Z",
+    "mapping_id": "mitre_0113",
+    "synthetic": true,
+    "tactic": "Discovery",
+    "technique_id": "T1046",
+    "technique_name": "Network Service Discovery"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 18,
+    "last_seen": "2026-07-07T12:19:00Z",
+    "mapping_id": "mitre_0114",
+    "synthetic": true,
+    "tactic": "Command and Control",
+    "technique_id": "T1105",
+    "technique_name": "Ingress Tool Transfer"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 25,
+    "last_seen": "2026-07-07T13:42:00Z",
+    "mapping_id": "mitre_0115",
+    "synthetic": true,
+    "tactic": "Command and Control",
+    "technique_id": "T1071",
+    "technique_name": "Application Layer Protocol"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 32,
+    "last_seen": "2026-07-07T15:05:00Z",
+    "mapping_id": "mitre_0116",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1562",
+    "technique_name": "Impair Defenses"
+  },
+  {
+    "affected_services": [
+      "ssh-decoy",
+      "fintech-web"
+    ],
+    "coverage": "observed",
+    "detections": 39,
+    "last_seen": "2026-07-07T16:28:00Z",
+    "mapping_id": "mitre_0117",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1027",
+    "technique_name": "Obfuscated Files or Information"
+  },
+  {
+    "affected_services": [
+      "fintech-web",
+      "api-decoy"
+    ],
+    "coverage": "detected",
+    "detections": 46,
+    "last_seen": "2026-07-07T17:51:00Z",
+    "mapping_id": "mitre_0118",
+    "synthetic": true,
+    "tactic": "Collection",
+    "technique_id": "T1005",
+    "technique_name": "Data from Local System"
+  },
+  {
+    "affected_services": [
+      "api-decoy",
+      "smb-canary"
+    ],
+    "coverage": "alerted",
+    "detections": 53,
+    "last_seen": "2026-07-07T19:14:00Z",
+    "mapping_id": "mitre_0119",
+    "synthetic": true,
+    "tactic": "Defense Evasion",
+    "technique_id": "T1218",
+    "technique_name": "System Binary Proxy Execution"
+  },
+  {
+    "affected_services": [
+      "smb-canary",
+      "ssh-decoy"
+    ],
+    "coverage": "contained",
+    "detections": 60,
+    "last_seen": "2026-07-07T20:37:00Z",
+    "mapping_id": "mitre_0120",
+    "synthetic": true,
+    "tactic": "Persistence",
+    "technique_id": "T1547",
+    "technique_name": "Boot or Logon Autostart Execution"
+  }
+]

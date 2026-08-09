@@ -1,0 +1,67 @@
+%YAML 1.1
+---
+vars:
+  address-groups:
+    HOME_NET: "[10.77.0.0/24]"
+    EXTERNAL_NET: "!$HOME_NET"
+  port-groups:
+    HTTP_PORTS: "[80,443,8080,8088]"
+
+default-log-dir: /var/log/suricata
+default-rule-path: /var/lib/suricata/rules
+rule-files:
+  - nabilo-local.rules
+
+outputs:
+  - fast:
+      enabled: false
+  - eve-log:
+      enabled: true
+      filetype: regular
+      filename: eve.json
+      rotate-interval: day
+      types:
+        - alert
+        - anomaly
+        - dns
+        - http
+        - tls
+        - ssh
+        - fileinfo
+        - flow
+        - stats
+
+logging:
+  default-log-level: notice
+  outputs:
+    - console:
+        enabled: true
+
+af-packet:
+  - interface: eth0
+    cluster-id: 77
+    cluster-type: cluster_flow
+    defrag: yes
+
+run-as:
+  user: suricata
+  group: suricata
+
+stream:
+  memcap: 256mb
+  checksum-validation: yes
+
+app-layer:
+  protocols:
+    http:
+      enabled: yes
+    ssh:
+      enabled: yes
+    tls:
+      enabled: yes
+    dns:
+      tcp:
+        enabled: yes
+      udp:
+        enabled: yes
+

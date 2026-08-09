@@ -1,0 +1,214 @@
+name: ${COMPOSE_PROJECT_NAME:-nabilo-honeypot}
+
+x-hardened: &hardened
+  restart: unless-stopped
+  security_opt:
+    - no-new-privileges:true
+  cap_drop:
+    - ALL
+  logging:
+    driver: json-file
+    options:
+      max-size: 10m
+      max-file: "3"
+
+services:
+  api:
+    <<: *hardened
+    profiles: [demo, core]
+    build:
+      context: ..
+      dockerfile: services/api/Dockerfile
+    environment:
+      NABILO_DATA_DIR: /app/data/seed
+      NABILO_MANIFEST_PATH: /app/data/manifest.json
+      NABILO_SQLITE_PATH: /runtime/nabilo-api.db
+    ports:
+      - 127.0.0.1:${API_PORT:-8000}:8000
+    volumes:
+      - ../data:/app/data:ro
+      - api_runtime:/runtime
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m,noexec,nosuid,nodev
+    networks: [app_net]
+    mem_limit: 512m
+    cpus: 1.0
+
+  fintech:
+    <<: *hardened
+    profiles: [demo]
+    build:
+      context: ..
+      dockerfile: infra/web/Dockerfile
+      args:
+        APP_PATH: apps/fintech-portal
+    ports:
+      - 127.0.0.1:${FINTECH_PORT:-5173}:8080
+    read_only: true
+    tmpfs:
+      - /tmp:size=16m,noexec,nosuid,nodev
+      - /var/cache/nginx:size=16m,noexec,nosuid,nodev
+      - /var/run:size=4m,noexec,nosuid,nodev
+    networks: [app_net]
+    mem_limit: 128m
+    cpus: 0.5
+
+  soc:
+    <<: *hardened
+    profiles: [demo]
+    build:
+      context: ..
+      dockerfile: infra/web/Dockerfile
+      args:
+        APP_PATH: apps/soc-console
+    ports:
+      - 127.0.0.1:${SOC_PORT:-5174}:8080
+    read_only: true
+    tmpfs:
+      - /tmp:size=16m,noexec,nosuid,nodev
+      - /var/cache/nginx:size=16m,noexec,nosuid,nodev
+      - /var/run:size=4m,noexec,nosuid,nodev
+    networks: [app_net]
+    mem_limit: 128m
+    cpus: 0.5
+
+  postgres:
+    image: postgres:16-alpine
+    profiles: [core]
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-nabilo_telemetry}
+      POSTGRES_USER: ${POSTGRES_USER:-nabilo_app}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in infra/.env}
+      POSTGRES_INITDB_ARGS: --auth-host=scram-sha-256
+    command: ["postgres", "-c", "shared_buffers=256MB", "-c", "max_connections=100", "-c", "log_statement=none"]
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./postgres/init:/docker-entrypoint-initdb.d:ro
+    networks: [data_net]
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+    cap_add: [CHOWN, DAC_OVERRIDE, FOWNER, SETGID, SETUID]
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    mem_limit: 1g
+    cpus: 1.0
+
+  redis:
+    image: redis:7-alpine
+    profiles: [core]
+    restart: unless-stopped
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf", "--requirepass", "${REDIS_PASSWORD:?set REDIS_PASSWORD in infra/.env}"]
+    volumes:
+      - redis_data:/data
+      - ./redis/redis.conf:/usr/local/etc/redis/redis.conf:ro
+    networks: [data_net]
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+    healthcheck:
+      test: [CMD, redis-cli, --no-auth-warning, -a, "${REDIS_PASSWORD}", ping]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+    mem_limit: 384m
+    cpus: 0.5
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:${ELASTIC_VERSION:-8.17.6}
+    profiles: [search]
+    restart: unless-stopped
+    environment:
+      discovery.type: single-node
+      xpack.security.enabled: "false"
+      xpack.ml.enabled: "false"
+      ES_JAVA_OPTS: -Xms${ELASTIC_HEAP:-1g} -Xmx${ELASTIC_HEAP:-1g}
+      ingest.geoip.downloader.enabled: "false"
+    volumes:
+      - elastic_data:/usr/share/elasticsearch/data
+    networks: [search_net]
+    security_opt: [no-new-privileges:true]
+    mem_limit: 2g
+    cpus: 2.0
+    healthcheck:
+      test: [CMD-SHELL, "curl -fsS http://127.0.0.1:9200/_cluster/health >/dev/null || exit 1"]
+      interval: 20s
+      timeout: 5s
+      retries: 10
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:${ELASTIC_VERSION:-8.17.6}
+    profiles: [search]
+    restart: unless-stopped
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    environment:
+      ELASTICSEARCH_HOSTS: '["http://elasticsearch:9200"]'
+      TELEMETRY_ENABLED: "false"
+      XPACK_FLEET_ENABLED: "false"
+      NODE_OPTIONS: --max-old-space-size=768
+    ports:
+      - 127.0.0.1:5601:5601
+    networks: [search_net]
+    security_opt: [no-new-privileges:true]
+    mem_limit: ${KIBANA_MEMORY:-1g}
+    cpus: 1.0
+
+  clamav:
+    image: ${CLAMAV_IMAGE:-clamav/clamav:1.4}
+    profiles: [malware]
+    restart: unless-stopped
+    volumes:
+      - clamav_db:/var/lib/clamav
+      - ../data/quarantine:/scan:ro
+    networks: [scanner_net]
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+    mem_limit: 4g
+    cpus: 2.0
+
+  ollama:
+    image: ${OLLAMA_IMAGE:-ollama/ollama:latest}
+    profiles: [ai]
+    restart: unless-stopped
+    environment:
+      OLLAMA_HOST: 0.0.0.0:11434
+      OLLAMA_KEEP_ALIVE: 5m
+      OLLAMA_NUM_PARALLEL: 1
+    ports:
+      - 127.0.0.1:11434:11434
+    volumes:
+      - ollama_data:/root/.ollama
+    networks: [ai_net]
+    security_opt: [no-new-privileges:true]
+    mem_limit: 12g
+    cpus: 6.0
+
+networks:
+  app_net:
+    driver: bridge
+  data_net:
+    driver: bridge
+    internal: true
+  search_net:
+    driver: bridge
+    internal: true
+  scanner_net:
+    driver: bridge
+    internal: true
+  ai_net:
+    driver: bridge
+    internal: true
+
+volumes:
+  api_runtime:
+  postgres_data:
+  redis_data:
+  elastic_data:
+  clamav_db:
+  ollama_data:
+

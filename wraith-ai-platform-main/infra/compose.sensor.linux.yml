@@ -1,0 +1,65 @@
+name: nabilo-sensor-zone
+
+services:
+  cowrie:
+    image: ${COWRIE_IMAGE:-cowrie/cowrie:latest}
+    restart: unless-stopped
+    environment:
+      COWRIE_HONEYPOT_HOSTNAME: fin-core-gateway01
+      COWRIE_SSH_ENABLED: "yes"
+      COWRIE_TELNET_ENABLED: "yes"
+      COWRIE_OUTPUT_JSONLOG_ENABLED: "yes"
+      COWRIE_OUTPUT_TEXTLOG_ENABLED: "no"
+    ports:
+      - 2222:2222
+      - 2223:2223
+    volumes:
+      - cowrie_var:/cowrie/cowrie-git/var
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m,noexec,nosuid,nodev
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+    networks: [sensor_ingress, telemetry_only]
+    mem_limit: 768m
+    cpus: 1.0
+
+  opencanary:
+    image: ${OPENCANARY_IMAGE:-thinkst/opencanary:latest}
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - ./opencanary/opencanary.conf:/root/.opencanary.conf:ro
+      - opencanary_logs:/var/tmp/opencanary
+    tmpfs:
+      - /run:size=16m,noexec,nosuid,nodev
+    security_opt: [no-new-privileges:true]
+    mem_limit: 512m
+    cpus: 1.0
+
+  suricata:
+    image: ${SURICATA_IMAGE:-jasonish/suricata:8.0.1}
+    restart: unless-stopped
+    network_mode: host
+    command: ["-i", "${SENSOR_INTERFACE:-eth0}", "-c", "/etc/suricata/suricata.yaml"]
+    cap_add: [NET_ADMIN, NET_RAW, SYS_NICE]
+    security_opt: [no-new-privileges:true]
+    volumes:
+      - ./suricata/suricata.yaml:/etc/suricata/suricata.yaml:ro
+      - ./suricata/rules:/var/lib/suricata/rules:ro
+      - suricata_logs:/var/log/suricata
+    mem_limit: 2g
+    cpus: 2.0
+
+networks:
+  sensor_ingress:
+    driver: bridge
+  telemetry_only:
+    driver: bridge
+    internal: true
+
+volumes:
+  cowrie_var:
+  opencanary_logs:
+  suricata_logs:
+

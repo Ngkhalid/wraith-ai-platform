@@ -1,0 +1,2162 @@
+[
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0001.bin",
+    "created_at": "2026-07-01T00:00:00Z",
+    "executed": false,
+    "file_size": 1024,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 1"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0001",
+    "risk_score": 10,
+    "sha256": "e700aabfe86c9eb0d13a4598cd576d9b9c6b98f8274c3f143fe3b44ff74250ad",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0002.bin",
+    "created_at": "2026-07-01T01:29:00Z",
+    "executed": false,
+    "file_size": 1161,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 2"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0002",
+    "risk_score": 17,
+    "sha256": "1d84b444bca816e013a7e7f0ff0149de3c8bd6a23758c9494ae4ff5a9a03e913",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0003.bin",
+    "created_at": "2026-07-01T02:58:00Z",
+    "executed": false,
+    "file_size": 1298,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 3"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0003",
+    "risk_score": 24,
+    "sha256": "c8f2921b959d0f5f60185fd60eb888624072bc01c1883a190c590cf93666c047",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0004.bin",
+    "created_at": "2026-07-01T04:27:00Z",
+    "executed": false,
+    "file_size": 1435,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 4"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0004",
+    "risk_score": 31,
+    "sha256": "4e465863471ee6532b8fdffef19aac60dcf742036f0472313b0a4c754b67fff6",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0005.bin",
+    "created_at": "2026-07-01T05:56:00Z",
+    "executed": false,
+    "file_size": 1572,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 5"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0005",
+    "risk_score": 38,
+    "sha256": "aaac83743d69d79425fac6d655c2af2a20c760ab6c8da452e04bbc6633479722",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0006.bin",
+    "created_at": "2026-07-01T07:25:00Z",
+    "executed": false,
+    "file_size": 1709,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 6"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0006",
+    "risk_score": 45,
+    "sha256": "f495e6db1b39811e648b75023a52b5c78bab4fabbb7c002f6af693d77d41a709",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0007.bin",
+    "created_at": "2026-07-01T08:54:00Z",
+    "executed": false,
+    "file_size": 1846,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 7"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0007",
+    "risk_score": 52,
+    "sha256": "fd01af4dfede3a8d11cfc4e4f38b97f8a6f850b9ef827a14281d5b9b84151b7c",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0008.bin",
+    "created_at": "2026-07-01T10:23:00Z",
+    "executed": false,
+    "file_size": 1983,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 8"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0008",
+    "risk_score": 59,
+    "sha256": "e943be2c1d1fa54b56bebdc30df93119bd6e3220be8d58c5ed57e9ef64c01fa1",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0009.bin",
+    "created_at": "2026-07-01T11:52:00Z",
+    "executed": false,
+    "file_size": 2120,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 9"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0009",
+    "risk_score": 66,
+    "sha256": "5b47c7838dcef78f3be561496eefe7eaf893d1ab4aa3463d987b0ecd53d71f09",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0010.bin",
+    "created_at": "2026-07-01T13:21:00Z",
+    "executed": false,
+    "file_size": 2257,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 10"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0010",
+    "risk_score": 73,
+    "sha256": "e5f564b7882db292642634523ecd3652002410ebec7c20dcd787e0fb1775b3d8",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0011.bin",
+    "created_at": "2026-07-01T14:50:00Z",
+    "executed": false,
+    "file_size": 2394,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 11"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0011",
+    "risk_score": 80,
+    "sha256": "944d0f8f6dd0bb6d47d6e8b245bf163ac11c1ffaf60cb8b78b7c318e9ab52089",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0012.bin",
+    "created_at": "2026-07-01T16:19:00Z",
+    "executed": false,
+    "file_size": 2531,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 12"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0012",
+    "risk_score": 87,
+    "sha256": "1e520fd53c4ac937e5751a43e27130ebb0d3ea36d77f839e0c80853d7fe27445",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0013.bin",
+    "created_at": "2026-07-01T17:48:00Z",
+    "executed": false,
+    "file_size": 2668,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 1"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0013",
+    "risk_score": 94,
+    "sha256": "093608cdbfb61640c2f1bae5889423b085835e7c6052378bd54b77502a2dccb6",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0014.bin",
+    "created_at": "2026-07-01T19:17:00Z",
+    "executed": false,
+    "file_size": 2805,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 2"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0014",
+    "risk_score": 11,
+    "sha256": "852a7e600898e2b3511916f4023dcf9014eb49a969284426f8fee6d4bef51d2f",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0015.bin",
+    "created_at": "2026-07-01T20:46:00Z",
+    "executed": false,
+    "file_size": 2942,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 3"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0015",
+    "risk_score": 18,
+    "sha256": "a875b043f7b3f7a8a7af8f96191efaba5348b58fa4921740d228943cca0be333",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0016.bin",
+    "created_at": "2026-07-01T22:15:00Z",
+    "executed": false,
+    "file_size": 3079,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 4"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0016",
+    "risk_score": 25,
+    "sha256": "0c69e2a35f33a9449d369411bfa7e8952676002b124abd8e1019038642b4d165",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0017.bin",
+    "created_at": "2026-07-01T23:44:00Z",
+    "executed": false,
+    "file_size": 3216,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 5"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0017",
+    "risk_score": 32,
+    "sha256": "f752e6d8c82416bdf92ad3afcd5086d3d215223b960bc757514c4a47a9b6bfbe",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0018.bin",
+    "created_at": "2026-07-02T01:13:00Z",
+    "executed": false,
+    "file_size": 3353,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 6"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0018",
+    "risk_score": 39,
+    "sha256": "dca8b86c12c04ead3ee11b017752a662b07af2a9dfc6ef1c55ca8d9c3f0a8617",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0019.bin",
+    "created_at": "2026-07-02T02:42:00Z",
+    "executed": false,
+    "file_size": 3490,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 7"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0019",
+    "risk_score": 46,
+    "sha256": "249ef21b326064a5576d1dd2073b3679aa74af9ef41eac0fcabb7102cac9adce",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0020.bin",
+    "created_at": "2026-07-02T04:11:00Z",
+    "executed": false,
+    "file_size": 3627,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 8"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0020",
+    "risk_score": 53,
+    "sha256": "709f6bce56cf8dfcc62ab18b26033daffdfe7862c0527eda3a2275b7b304363e",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0021.bin",
+    "created_at": "2026-07-02T05:40:00Z",
+    "executed": false,
+    "file_size": 3764,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 9"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0021",
+    "risk_score": 60,
+    "sha256": "2cb0fa0de457cc9c3f2fb7ec48168f77dd8dc3fcd3eda78f41284d5ca1798e93",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0022.bin",
+    "created_at": "2026-07-02T07:09:00Z",
+    "executed": false,
+    "file_size": 3901,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 10"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0022",
+    "risk_score": 67,
+    "sha256": "9cddacf871fbd860a9d683ade530912f2eb223b74fddae418c12e072b2abd0bb",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0023.bin",
+    "created_at": "2026-07-02T08:38:00Z",
+    "executed": false,
+    "file_size": 4038,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 11"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0023",
+    "risk_score": 74,
+    "sha256": "051e9f5c38fa80cb2dee7d31adc2d521a6e9f87e9394d403c57d58d606268f7b",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0024.bin",
+    "created_at": "2026-07-02T10:07:00Z",
+    "executed": false,
+    "file_size": 4175,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 12"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0024",
+    "risk_score": 81,
+    "sha256": "65b36041dbe3f3e743bc9244193346a3e3bef4f34546101d03915514b4bd882c",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0025.bin",
+    "created_at": "2026-07-02T11:36:00Z",
+    "executed": false,
+    "file_size": 4312,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 1"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0025",
+    "risk_score": 88,
+    "sha256": "e9909b54459e495aa96f5048db939974cee97abb8d0d51797a731ca7754bfd91",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0026.bin",
+    "created_at": "2026-07-02T13:05:00Z",
+    "executed": false,
+    "file_size": 4449,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 2"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0026",
+    "risk_score": 95,
+    "sha256": "a7a952a647022ec628c7c5c8da9c35f49cd3c55bd71712a1473762c4576fc4d3",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0027.bin",
+    "created_at": "2026-07-02T14:34:00Z",
+    "executed": false,
+    "file_size": 4586,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 3"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0027",
+    "risk_score": 12,
+    "sha256": "ac2751ab27605342075e475ae221d270cbb82fb70c85a5abb45d55c7a4696430",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0028.bin",
+    "created_at": "2026-07-02T16:03:00Z",
+    "executed": false,
+    "file_size": 4723,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 4"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0028",
+    "risk_score": 19,
+    "sha256": "f79d71d1d6a4e490f3f67cc7afceecd1f6854521920e915cddac0e48a93ee9ce",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0029.bin",
+    "created_at": "2026-07-02T17:32:00Z",
+    "executed": false,
+    "file_size": 4860,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 5"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0029",
+    "risk_score": 26,
+    "sha256": "8396fa2862df19770f46bef11f74c7197bda3f42764c2d90a2c3370622c68fe2",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0030.bin",
+    "created_at": "2026-07-02T19:01:00Z",
+    "executed": false,
+    "file_size": 4997,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 6"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0030",
+    "risk_score": 33,
+    "sha256": "a44685b2598b26946791dbb9d1de579c3242b5e002e8362f9f832e96d41b0ab8",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0031.bin",
+    "created_at": "2026-07-02T20:30:00Z",
+    "executed": false,
+    "file_size": 5134,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 7"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0031",
+    "risk_score": 40,
+    "sha256": "2dc1a1ef2b396b316684f20ef543bd029b4402ca5077815b567f4b1540163673",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0032.bin",
+    "created_at": "2026-07-02T21:59:00Z",
+    "executed": false,
+    "file_size": 5271,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 8"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0032",
+    "risk_score": 47,
+    "sha256": "f2689163786d935530f5330f10c7266b1629736a76aa47763b630cbffde985fe",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0033.bin",
+    "created_at": "2026-07-02T23:28:00Z",
+    "executed": false,
+    "file_size": 5408,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 9"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0033",
+    "risk_score": 54,
+    "sha256": "499c1bdb744a4dbe54d17991865f03c9bfa1c4b3c94e2ddedbd3fd4f75fcdf47",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0034.bin",
+    "created_at": "2026-07-03T00:57:00Z",
+    "executed": false,
+    "file_size": 5545,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 10"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0034",
+    "risk_score": 61,
+    "sha256": "c2e30ed793a8c541b185a0be9340da02b3d3a61a7917db2aeffe26538c240691",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0035.bin",
+    "created_at": "2026-07-03T02:26:00Z",
+    "executed": false,
+    "file_size": 5682,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 11"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0035",
+    "risk_score": 68,
+    "sha256": "476c69000acbfed0f6e4723e8a18605ed6823577f1d9dc42de1679eaee52fa53",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0036.bin",
+    "created_at": "2026-07-03T03:55:00Z",
+    "executed": false,
+    "file_size": 5819,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 12"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0036",
+    "risk_score": 75,
+    "sha256": "ea35b4ad81ca99234344d12e1d683834123055e792219faa3cf1120cf3d8235d",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0037.bin",
+    "created_at": "2026-07-03T05:24:00Z",
+    "executed": false,
+    "file_size": 5956,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 1"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0037",
+    "risk_score": 82,
+    "sha256": "a635dc4690f36217b20d9875009c6b7c24aaa8d649e4d28563b7568bbdda63fa",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0038.bin",
+    "created_at": "2026-07-03T06:53:00Z",
+    "executed": false,
+    "file_size": 6093,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 2"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0038",
+    "risk_score": 89,
+    "sha256": "7a45dfaaa114684c1f1ef830fb091926e5c53e10af9998e53c78bd727af7d535",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0039.bin",
+    "created_at": "2026-07-03T08:22:00Z",
+    "executed": false,
+    "file_size": 6230,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 3"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0039",
+    "risk_score": 96,
+    "sha256": "7e28d1826d34537bde353cd6cb58b569ddab68aee0020a77434a39179dff7476",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0040.bin",
+    "created_at": "2026-07-03T09:51:00Z",
+    "executed": false,
+    "file_size": 6367,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 4"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0040",
+    "risk_score": 13,
+    "sha256": "b7981d5b148191894e17dadcaccafd1cfa85f35ab04be4d9eab094800ae898af",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0041.bin",
+    "created_at": "2026-07-03T11:20:00Z",
+    "executed": false,
+    "file_size": 6504,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 5"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0041",
+    "risk_score": 20,
+    "sha256": "e4ca6e4c319597d80681abea463226f672f5af6e0cc17b199e7e0515bd47395c",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0042.bin",
+    "created_at": "2026-07-03T12:49:00Z",
+    "executed": false,
+    "file_size": 6641,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 6"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0042",
+    "risk_score": 27,
+    "sha256": "9cca031d2e85ad3dd00bb0829fd9eedcdba1eb3521d34fd6e380d55987d92fcc",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0043.bin",
+    "created_at": "2026-07-03T14:18:00Z",
+    "executed": false,
+    "file_size": 6778,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 7"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0043",
+    "risk_score": 34,
+    "sha256": "8bef41f26f806273095e4501168432938945890c7bbbdc86848b8566775d33ce",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0044.bin",
+    "created_at": "2026-07-03T15:47:00Z",
+    "executed": false,
+    "file_size": 6915,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 8"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0044",
+    "risk_score": 41,
+    "sha256": "a3b32ab03b783c67352afe234c388b9f08679c4efd41ff2d3ce759ce6c36e977",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0045.bin",
+    "created_at": "2026-07-03T17:16:00Z",
+    "executed": false,
+    "file_size": 7052,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 9"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0045",
+    "risk_score": 48,
+    "sha256": "de5bdd5c808cbdb0d174b490236523d4ff3b346cf03e6ac41ad24f7b359e38fd",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0046.bin",
+    "created_at": "2026-07-03T18:45:00Z",
+    "executed": false,
+    "file_size": 7189,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 10"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0046",
+    "risk_score": 55,
+    "sha256": "db0b04cd43e529d89c5d6730bdca0087fcf253663da33bf69b3a62bd561eefd9",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0047.bin",
+    "created_at": "2026-07-03T20:14:00Z",
+    "executed": false,
+    "file_size": 7326,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 11"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0047",
+    "risk_score": 62,
+    "sha256": "b71cf046f1aefee8db79cf57f1d90106cb09983add714ff163647c824a0b6129",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0048.bin",
+    "created_at": "2026-07-03T21:43:00Z",
+    "executed": false,
+    "file_size": 7463,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 12"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0048",
+    "risk_score": 69,
+    "sha256": "dd056a4745cb8e7a81594b5190428257747221bd03a3e6d1a6481acc65a93476",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0049.bin",
+    "created_at": "2026-07-03T23:12:00Z",
+    "executed": false,
+    "file_size": 7600,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 1"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0049",
+    "risk_score": 76,
+    "sha256": "2c9a2d07c5cc6efe5bcb1116fff294bd14073c85d8ab5be327b139be4dc78ab9",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0050.bin",
+    "created_at": "2026-07-04T00:41:00Z",
+    "executed": false,
+    "file_size": 7737,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 2"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0050",
+    "risk_score": 83,
+    "sha256": "2112c55415e80b7c993bc604839381bd7dc66e69e9c6a22f905e6e8a37589b56",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0051.bin",
+    "created_at": "2026-07-04T02:10:00Z",
+    "executed": false,
+    "file_size": 7874,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 3"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0051",
+    "risk_score": 90,
+    "sha256": "5845ce4d39d515a88831ac9c24252ecc3ef7d861c3dc8521fc4c423358745497",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0052.bin",
+    "created_at": "2026-07-04T03:39:00Z",
+    "executed": false,
+    "file_size": 8011,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 4"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0052",
+    "risk_score": 97,
+    "sha256": "3a8a3931f7cdddc5047cec073eadd4228bec3781bd43851d1fb3e2a4850f8b9c",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0053.bin",
+    "created_at": "2026-07-04T05:08:00Z",
+    "executed": false,
+    "file_size": 8148,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 5"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0053",
+    "risk_score": 14,
+    "sha256": "788b1e79418f98bed8462eb093a9f276e7ad3c3c32d6e1c49745b7875cd65fdd",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0054.bin",
+    "created_at": "2026-07-04T06:37:00Z",
+    "executed": false,
+    "file_size": 8285,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 6"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0054",
+    "risk_score": 21,
+    "sha256": "efef52aec2b59a87e7c3f05908072d9d7cb46ea5d355a4e40a81f00e266d45cf",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0055.bin",
+    "created_at": "2026-07-04T08:06:00Z",
+    "executed": false,
+    "file_size": 8422,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 7"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0055",
+    "risk_score": 28,
+    "sha256": "68aa72a7ca5399697a152f5527d7f570752e2198caa7600dabd1a1ef0dafa5d7",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0056.bin",
+    "created_at": "2026-07-04T09:35:00Z",
+    "executed": false,
+    "file_size": 8559,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 8"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0056",
+    "risk_score": 35,
+    "sha256": "8b38dfdd14b0408b895aa70c1a821af3b03295e0536af52f46d96c04c2fe8c66",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0057.bin",
+    "created_at": "2026-07-04T11:04:00Z",
+    "executed": false,
+    "file_size": 8696,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 9"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0057",
+    "risk_score": 42,
+    "sha256": "e61e9f804eb6cd12c1cff45b8e8f7f5cc00e83f3d6eb7b6dc0686eaec6b73297",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0058.bin",
+    "created_at": "2026-07-04T12:33:00Z",
+    "executed": false,
+    "file_size": 8833,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 10"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0058",
+    "risk_score": 49,
+    "sha256": "b9c424fadf5bb085bcdb3a42b6a4d87676edc761e1089ccd95f515e04304692d",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0059.bin",
+    "created_at": "2026-07-04T14:02:00Z",
+    "executed": false,
+    "file_size": 8970,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 11"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0059",
+    "risk_score": 56,
+    "sha256": "4226a3da83460a4f39fb3d15efea45519d77aba3b4315dd600d4863c2e350cfa",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0060.bin",
+    "created_at": "2026-07-04T15:31:00Z",
+    "executed": false,
+    "file_size": 9107,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 12"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0060",
+    "risk_score": 63,
+    "sha256": "217d02e8311ed98cb844aa96f1bbe7d900a49e79827b23c16ea65ee40f4b2866",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0061.bin",
+    "created_at": "2026-07-04T17:00:00Z",
+    "executed": false,
+    "file_size": 9244,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 1"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0061",
+    "risk_score": 70,
+    "sha256": "733e02c99caff2a5873d573b3dd696042510c074015cf7c5caf5119e9a0f2661",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0062.bin",
+    "created_at": "2026-07-04T18:29:00Z",
+    "executed": false,
+    "file_size": 9381,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 2"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0062",
+    "risk_score": 77,
+    "sha256": "34fc19c39b30a0d408948b004d7b347a54d71306f924c0b7dd21fefc0de0410e",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0063.bin",
+    "created_at": "2026-07-04T19:58:00Z",
+    "executed": false,
+    "file_size": 9518,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 3"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0063",
+    "risk_score": 84,
+    "sha256": "8fd5259ed7e537099dedd59a1793d2100d71ebf5663e5fbd3e192ecab70ebb91",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0064.bin",
+    "created_at": "2026-07-04T21:27:00Z",
+    "executed": false,
+    "file_size": 9655,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 4"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0064",
+    "risk_score": 91,
+    "sha256": "2ca86cdb3c14b9374af618fcb85085e67028f7f5a3ef271d0cc406a18a165468",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0065.bin",
+    "created_at": "2026-07-04T22:56:00Z",
+    "executed": false,
+    "file_size": 9792,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 5"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0065",
+    "risk_score": 98,
+    "sha256": "58980a52580b5c1ac620e73604f1023ae737be9ead0695ff9447cd32c3bc2b52",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0066.bin",
+    "created_at": "2026-07-05T00:25:00Z",
+    "executed": false,
+    "file_size": 9929,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 6"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0066",
+    "risk_score": 15,
+    "sha256": "811a7d4d9f470dcde742786dcba50993cf1d890c90cab0ef07f4d496674b3620",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0067.bin",
+    "created_at": "2026-07-05T01:54:00Z",
+    "executed": false,
+    "file_size": 10066,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 7"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0067",
+    "risk_score": 22,
+    "sha256": "4fe73ed35bffe3957c7787392f63423819d0e48e703af51a44ae9d98e2e0309e",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0068.bin",
+    "created_at": "2026-07-05T03:23:00Z",
+    "executed": false,
+    "file_size": 10203,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 8"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0068",
+    "risk_score": 29,
+    "sha256": "0b47a7d7fbc1901e7cd30536b8e54f05be0621a78e140088c0c677099e78390a",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0069.bin",
+    "created_at": "2026-07-05T04:52:00Z",
+    "executed": false,
+    "file_size": 10340,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 9"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0069",
+    "risk_score": 36,
+    "sha256": "a7d8cc402fa4e5798e13f9f95363630366006123e56a5f0d1e18fdfb6930d62b",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0070.bin",
+    "created_at": "2026-07-05T06:21:00Z",
+    "executed": false,
+    "file_size": 10477,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 10"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0070",
+    "risk_score": 43,
+    "sha256": "85fc55a20c4eee05305548013f44a56c5fa623503611636d16aa28a1a55cceb8",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0071.bin",
+    "created_at": "2026-07-05T07:50:00Z",
+    "executed": false,
+    "file_size": 10614,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 11"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0071",
+    "risk_score": 50,
+    "sha256": "2ec957afcf10c8be58ec221216a784d0d7a34312b56db861186dcf450cee772f",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0072.bin",
+    "created_at": "2026-07-05T09:19:00Z",
+    "executed": false,
+    "file_size": 10751,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 12"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0072",
+    "risk_score": 57,
+    "sha256": "104d6a784ba069dc1c6ca0f1d0ae85845781a53a9f6b7fd17afda99d0e725266",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0073.bin",
+    "created_at": "2026-07-05T10:48:00Z",
+    "executed": false,
+    "file_size": 10888,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 1"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0073",
+    "risk_score": 64,
+    "sha256": "cc25818597f0898ca1600bd2a8c75ea4659e3440928ef60eb62d36a6610b969e",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0074.bin",
+    "created_at": "2026-07-05T12:17:00Z",
+    "executed": false,
+    "file_size": 11025,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 2"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0074",
+    "risk_score": 71,
+    "sha256": "e33afbc61d39b71d8798a0dd5927bdaa57ae94c7d75c577da026485edddf07be",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0075.bin",
+    "created_at": "2026-07-05T13:46:00Z",
+    "executed": false,
+    "file_size": 11162,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 3"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0075",
+    "risk_score": 78,
+    "sha256": "8d9b1815e4be8ab57c3b607d53b47607ffc1cc11c5f191946602f85402ad6761",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0076.bin",
+    "created_at": "2026-07-05T15:15:00Z",
+    "executed": false,
+    "file_size": 11299,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 4"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0076",
+    "risk_score": 85,
+    "sha256": "9d5f6c0fbcb8d49792d7f7a2bd05c99383e9b0d25d864a35004e9afaf327516c",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0077.bin",
+    "created_at": "2026-07-05T16:44:00Z",
+    "executed": false,
+    "file_size": 11436,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 5"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0077",
+    "risk_score": 92,
+    "sha256": "0214783f9ad53d35cdbfc7768b6db18ab604e65b38988916fb4ca27186851183",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0078.bin",
+    "created_at": "2026-07-05T18:13:00Z",
+    "executed": false,
+    "file_size": 11573,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 6"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0078",
+    "risk_score": 99,
+    "sha256": "0a546fddd9e31475074f6aa2eae17f7dc5b4db91c0937b49fe8eb0c49f6437cd",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0079.bin",
+    "created_at": "2026-07-05T19:42:00Z",
+    "executed": false,
+    "file_size": 11710,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 7"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0079",
+    "risk_score": 16,
+    "sha256": "78c28323ac4416304cbda597bf97833e67a14f2c9aeb378cc98a986cf579e771",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0080.bin",
+    "created_at": "2026-07-05T21:11:00Z",
+    "executed": false,
+    "file_size": 11847,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 8"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0080",
+    "risk_score": 23,
+    "sha256": "cbe8bf304e8b164e43f525f890e38d9638b28385c874dc0ab0aa8b93cc47de17",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0081.bin",
+    "created_at": "2026-07-05T22:40:00Z",
+    "executed": false,
+    "file_size": 11984,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 9"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0081",
+    "risk_score": 30,
+    "sha256": "8418c6d27e268ae179e75753608d2da7fbfca6ec7de2b0221636314538d38452",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0082.bin",
+    "created_at": "2026-07-06T00:09:00Z",
+    "executed": false,
+    "file_size": 12121,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 10"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0082",
+    "risk_score": 37,
+    "sha256": "26f49dbd34d27b8edc4b3940f58d027620c1c29b38f8b38c50c32548b7d4e990",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0083.bin",
+    "created_at": "2026-07-06T01:38:00Z",
+    "executed": false,
+    "file_size": 12258,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 11"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0083",
+    "risk_score": 44,
+    "sha256": "d8acbb01a3fae83d95993d92407ecab67b90962570edfda8eb7bc14432fd1097",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0084.bin",
+    "created_at": "2026-07-06T03:07:00Z",
+    "executed": false,
+    "file_size": 12395,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 12"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0084",
+    "risk_score": 51,
+    "sha256": "bbe7d3f054015c56303bbb6a1e43b28abf9031f21a7c6a0e772f2263e881e795",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0085.bin",
+    "created_at": "2026-07-06T04:36:00Z",
+    "executed": false,
+    "file_size": 12532,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 1"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0085",
+    "risk_score": 58,
+    "sha256": "430ecee7a53d8e1ed8bd45f45a6094f751690771676e3b65a74bb73cfaeea997",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0086.bin",
+    "created_at": "2026-07-06T06:05:00Z",
+    "executed": false,
+    "file_size": 12669,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 2"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0086",
+    "risk_score": 65,
+    "sha256": "7ec848a2368b7506bd5d069d269b12c97689bf0abad4957fd2f2ecaada2f0002",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0087.bin",
+    "created_at": "2026-07-06T07:34:00Z",
+    "executed": false,
+    "file_size": 12806,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 3"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0087",
+    "risk_score": 72,
+    "sha256": "90f3716c386f9f22fb005b4b2a03082028c126ff36f07cde56f87be2a76b9806",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0088.bin",
+    "created_at": "2026-07-06T09:03:00Z",
+    "executed": false,
+    "file_size": 12943,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 4"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0088",
+    "risk_score": 79,
+    "sha256": "7b20abd9d8648398dd4bd67f3ccedd0888bd5bdcc41b9cc733be6819d22d11a6",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0089.bin",
+    "created_at": "2026-07-06T10:32:00Z",
+    "executed": false,
+    "file_size": 13080,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 5"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0089",
+    "risk_score": 86,
+    "sha256": "1402161a5ea9d624a06d23c1f38c6471327e8e7a5173f746914bbe07b2cceff3",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0090.bin",
+    "created_at": "2026-07-06T12:01:00Z",
+    "executed": false,
+    "file_size": 13217,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 6"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0090",
+    "risk_score": 93,
+    "sha256": "f938749bdddb5fdc22b4d2c4e7f7565d7d760a93dea41ba5f949bd32e4791421",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0091.bin",
+    "created_at": "2026-07-06T13:30:00Z",
+    "executed": false,
+    "file_size": 13354,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 7"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0091",
+    "risk_score": 10,
+    "sha256": "eadcf5a6e712c21117368ed9fb9631465acdd84f1d1a132b98e9bcd07b743b41",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0092.bin",
+    "created_at": "2026-07-06T14:59:00Z",
+    "executed": false,
+    "file_size": 13491,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 8"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0092",
+    "risk_score": 17,
+    "sha256": "83fdf101c96dab9684ceb91de7182782f5f274d26dc370879568f77c9e6b5714",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0093.bin",
+    "created_at": "2026-07-06T16:28:00Z",
+    "executed": false,
+    "file_size": 13628,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 9"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0093",
+    "risk_score": 24,
+    "sha256": "4bfbb10b67cc1440fa8e90176d4162a0548588bf607bcdc972f0b9c87a5e4941",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0094.bin",
+    "created_at": "2026-07-06T17:57:00Z",
+    "executed": false,
+    "file_size": 13765,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 10"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0094",
+    "risk_score": 31,
+    "sha256": "ad5572880fce3bba451bc2948571c4a635d562460224e1527aaa976f707190c1",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0095.bin",
+    "created_at": "2026-07-06T19:26:00Z",
+    "executed": false,
+    "file_size": 13902,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 11"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0095",
+    "risk_score": 38,
+    "sha256": "f970d51e6f1c35253db006db6e815707f8c7153c6eedecb6d88fd2cf50dda6c4",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0096.bin",
+    "created_at": "2026-07-06T20:55:00Z",
+    "executed": false,
+    "file_size": 14039,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 12"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0096",
+    "risk_score": 45,
+    "sha256": "aaf08cf97796672486ed4a8cc3df74996ec004bc818765dd3c1102ac67f13210",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0097.bin",
+    "created_at": "2026-07-06T22:24:00Z",
+    "executed": false,
+    "file_size": 14176,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 1"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0097",
+    "risk_score": 52,
+    "sha256": "73ba5d2227b354998b2c58a71b341921e8f5e1a308f41de3943d2f3485a97457",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0098.bin",
+    "created_at": "2026-07-06T23:53:00Z",
+    "executed": false,
+    "file_size": 14313,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 2"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0098",
+    "risk_score": 59,
+    "sha256": "80a5d9cbb9029106473c0beb0edf13d9e1912c4ce2a1e9141097160b4c73dece",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0099.bin",
+    "created_at": "2026-07-07T01:22:00Z",
+    "executed": false,
+    "file_size": 14450,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 3"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0099",
+    "risk_score": 66,
+    "sha256": "6ebe0bdc38a49c1cda7d2351d299228cf1a46bbb5d2601f0aa9b68aa8dfb1547",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0100.bin",
+    "created_at": "2026-07-07T02:51:00Z",
+    "executed": false,
+    "file_size": 14587,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 4"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0100",
+    "risk_score": 73,
+    "sha256": "e4c41a60a16b62d3deaa97a52a38c1457442d59f8159dcb3cea4428503e61004",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0101.bin",
+    "created_at": "2026-07-07T04:20:00Z",
+    "executed": false,
+    "file_size": 14724,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 5"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0101",
+    "risk_score": 80,
+    "sha256": "2a19688ed0672645c49634df76039dc5eb232d5de893e788f2d11e9f8b8fb2bb",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0102.bin",
+    "created_at": "2026-07-07T05:49:00Z",
+    "executed": false,
+    "file_size": 14861,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 6"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0102",
+    "risk_score": 87,
+    "sha256": "96a0516eea2f372fa441d7ce9e762944fdc0779fd27da4461d30fc12efe6bc6b",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0103.bin",
+    "created_at": "2026-07-07T07:18:00Z",
+    "executed": false,
+    "file_size": 14998,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 7"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0103",
+    "risk_score": 94,
+    "sha256": "70602311fc9ea4f9f885d496e3f9a2507052d7d702245b322e937958a9099f57",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0104.bin",
+    "created_at": "2026-07-07T08:47:00Z",
+    "executed": false,
+    "file_size": 15135,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 8"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0104",
+    "risk_score": 11,
+    "sha256": "9bf0113a51f746ca320777304010ec6b538c720a6552aafcda9f64ec7c28ff1b",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0105.bin",
+    "created_at": "2026-07-07T10:16:00Z",
+    "executed": false,
+    "file_size": 15272,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 9"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0105",
+    "risk_score": 18,
+    "sha256": "d8b1c0b65e4b430e4229283cb32731b9bf257f99f34960f2a8533cd1b10e1ece",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0106.bin",
+    "created_at": "2026-07-07T11:45:00Z",
+    "executed": false,
+    "file_size": 15409,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 10"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0106",
+    "risk_score": 25,
+    "sha256": "a4a51f14cd194ab28e9577c9d5d3f64db97648b19f8890ad5a54e82aa5bee872",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0107.bin",
+    "created_at": "2026-07-07T13:14:00Z",
+    "executed": false,
+    "file_size": 15546,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 11"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0107",
+    "risk_score": 32,
+    "sha256": "701c2b8ac495afae902146cf9064708b467bfec722f2bfaa55f91d4aaf0604b0",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0108.bin",
+    "created_at": "2026-07-07T14:43:00Z",
+    "executed": false,
+    "file_size": 15683,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 12"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0108",
+    "risk_score": 39,
+    "sha256": "d2740091397f737e939bce5e07b9bf74f88f77d4b8e1110335b8973136440da0",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0109.bin",
+    "created_at": "2026-07-07T16:12:00Z",
+    "executed": false,
+    "file_size": 15820,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 1"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0109",
+    "risk_score": 46,
+    "sha256": "5d565867eff7e7123cf71dee7fa0e20608c7602c3c355ccf60973f1e6f123765",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0110.bin",
+    "created_at": "2026-07-07T17:41:00Z",
+    "executed": false,
+    "file_size": 15957,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 2"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0110",
+    "risk_score": 53,
+    "sha256": "d2223d2e62cd3849d610ab48e684aad72fd0e742c52c7867e2ddf0d9b07301ca",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0111.bin",
+    "created_at": "2026-07-07T19:10:00Z",
+    "executed": false,
+    "file_size": 16094,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 3"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0111",
+    "risk_score": 60,
+    "sha256": "28d7ba0096a0c56e9b108a2ad57369f08e056cb7f2dc85dc19843b1edf50101b",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0112.bin",
+    "created_at": "2026-07-07T20:39:00Z",
+    "executed": false,
+    "file_size": 16231,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 4"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0112",
+    "risk_score": 67,
+    "sha256": "77bc3e1925b8f6acf965898c12e4588fed0aa8eee71987adb48fe34f89764271",
+    "synthetic": true,
+    "verdict": "suspicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0113.bin",
+    "created_at": "2026-07-07T22:08:00Z",
+    "executed": false,
+    "file_size": 16368,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 5"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0113",
+    "risk_score": 74,
+    "sha256": "fa737592992bc0c3a945d3f48ff6b9135a92467762a090b2844380ce7f346b17",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0114.bin",
+    "created_at": "2026-07-07T23:37:00Z",
+    "executed": false,
+    "file_size": 16505,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 6"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0114",
+    "risk_score": 81,
+    "sha256": "6a5ca5d0ff08f6311769b00ab33d4d410634523c983112768e19b2cca2fed14c",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0115.bin",
+    "created_at": "2026-07-08T01:06:00Z",
+    "executed": false,
+    "file_size": 16642,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 7"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0115",
+    "risk_score": 88,
+    "sha256": "54bda07c163d08169ae546082619f687debb1e18cf49e941c97a9cdd69bef1e7",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0116.bin",
+    "created_at": "2026-07-08T02:35:00Z",
+    "executed": false,
+    "file_size": 16779,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 8"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0116",
+    "risk_score": 95,
+    "sha256": "6429b7db66171f048482934f26773e28adae0997bfc027ecc1a4b7d416428149",
+    "synthetic": true,
+    "verdict": "malicious_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0117.bin",
+    "created_at": "2026-07-08T04:04:00Z",
+    "executed": false,
+    "file_size": 16916,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 9"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0117",
+    "risk_score": 12,
+    "sha256": "27825a6bdb36022d6998bbac8216a8281e639d125602b5f98f93178e23527d63",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0118.bin",
+    "created_at": "2026-07-08T05:33:00Z",
+    "executed": false,
+    "file_size": 17053,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 10"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0118",
+    "risk_score": 19,
+    "sha256": "fe1f4f98674a4dca680fc88d3f83b0321d14633efe5a257cb341d7bc4961b5c3",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0119.bin",
+    "created_at": "2026-07-08T07:02:00Z",
+    "executed": false,
+    "file_size": 17190,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 11"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0119",
+    "risk_score": 26,
+    "sha256": "2a9c9cd6f50f708feb6ebe3663beda6128bec1f6f539a42ea989293ccba2fa92",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  },
+  {
+    "analysis_mode": "static-fixture-only",
+    "artifact_name": "synthetic-sample-0120.bin",
+    "created_at": "2026-07-08T08:31:00Z",
+    "executed": false,
+    "file_size": 17327,
+    "findings": [
+      "synthetic indicator",
+      "demo behavior 12"
+    ],
+    "mime_type": "application/octet-stream",
+    "network_access": false,
+    "report_id": "sbox_0120",
+    "risk_score": 33,
+    "sha256": "84acbbab46302e243d93e834d7a8c281f1862a27cf308e7a1e78be78a4c47e65",
+    "synthetic": true,
+    "verdict": "clean_simulation"
+  }
+]
